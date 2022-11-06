@@ -7,23 +7,98 @@
 --cor3: hsl(227, 10%, 46%);
 --cor4: hsl(0, 0%, 59%);
 }
-
+*{
+    font-family: 'Kumbh Sans', Arial, sans-serif;
+}
 body{
-background-color: var(--cor1);
-}
-
-.imagetop{
     display: flex;
-    margin: -400px;
-}
-.imagebottom{
-    display: flex;
-    margin:400px 800px;
-}
-
-.bluecard{
-    display: flex;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    background-color: var(--cor1);
+}
+
+.bolafundo{
+    position: absolute;
+    top: 600px;
+    left: 1000px;
+
+}
+
+.bolafundo2{
+    max-height: 100vh;
+    position: absolute;
+    bottom: 550px;
+    right: 1200px;
+}
+
+.fundo{
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+main{
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 50px 0px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .victor{
+    border-radius: 50%;
+    margin-top: -40px;
+}
+
+main h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+main h2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor4);
+    margin-top: -10px;
+}
+ 
+main h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cor4);
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+main .infovictor{
+    display: flex;
+
+}
+
+main .infovictor2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rowinfo{
+    display: flex;
+
+}
+
+.firstinfo{
+
+    margin-right: 30px;
+}
+
+.secondinfo{
+    margin-right: 30px;
+}
+
+.thirdinfo{
+    margin-right: 30px;
 }
